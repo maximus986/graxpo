@@ -1,6 +1,6 @@
 
 @media(min-width:576px){
-    
+
 
 
 
@@ -10,7 +10,20 @@
 
 
 @media(min-width:768px){
-    
+    .navbar-light .navbar-nav .nav-item {
+        border-bottom: 2px solid transparent;
+        transition: 0.5s linear;
+    }
+
+    .navbar-light .navbar-nav .nav-item.active,
+    .navbar-light .navbar-nav .nav-item:hover {
+        background: transparent;
+        border-bottom: 2px solid #E84C3D;
+    }
+
+    .navbar-light .navbar-nav .nav-item .nav-link {
+        font-size: 1rem;
+    }
 
 
 
@@ -19,11 +32,9 @@
 
 @media(min-width:992px){
 
-    html{
-        font-size: 16px;
-    }
 
-    
+
+
 
 
 }
@@ -33,6 +44,8 @@
 
 
 @media(min-width:1200px){
-    
+    .container {
+        width: 1119px;
+    }
 
 }

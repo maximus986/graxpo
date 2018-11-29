@@ -1,3 +1,5 @@
+/*FONTS*/
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300,400,700&subset=cyrillic-ext');
 
 @font-face {
@@ -7,6 +9,8 @@
   font-style: normal;
 }
 
+/*GENERAL STYLE*/
+
 html{
     font-size: 14px;
 }
@@ -15,10 +19,79 @@ img{
     max-width: 100%;
 }
 
-p {
-    font-family: 'LeckerliOne-Regular';
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #81868E;
+    
 }
 
-h1 {
+.section-title {
+    color: #333B46;
     font-family: 'Roboto', sans-serif;
+    font-size: 1.42rem;
+    text-transform: uppercase;
+}
+
+line-left:after {
+    content: ' ';
+    display: block;
+    width: 46px;
+    height: 5px;
+    background: #898989;
+}
+
+.line-center:after {
+   content: ' ';
+    display: block;
+    width: 46px;
+    height: 5px;
+    background: #898989; 
+    margin: 0 auto;
+}
+
+.text-danger {
+    color: #E84C3D important;
+}
+
+.bg-danger {
+    background: #E84C3D !important;
+}
+
+/*HEADER STYLE*/
+
+.navbar {
+    padding: 0;
+}
+
+#main-nav {
+    margin: 0 -15px;
+}
+
+.navbar-brand {
+    font-family: 'LeckerliOne-Regular';
+    font-size: 2rem;
+}
+
+.navbar-light .navbar-nav .nav-item {
+    border-bottom: 1px solid #E84C3D;
+    transition: 0.5s linear;
+}
+
+.navbar-light .navbar-nav .nav-item.active,
+.navbar-light .navbar-nav .nav-item:hover {
+    background: #E84C3D;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #333B46;
+    font-size: 1.3rem;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(232, 76, 61)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-light .navbar-toggler {
+    color: #E84C3D;
+    border-color: #E84C3D;
 }
