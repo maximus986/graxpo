@@ -34,6 +34,18 @@
     .hero {
         padding: 200px 0 ;
     }
+    
+    .features .features-item {
+        text-align: left;
+    }
+    
+    .features .features-item-content .section-item-title.item-title-line-center:after {
+        margin: 24px 0;
+    }
+    
+    .features .features-item-icon {
+        text-align: center;
+    }
 
 
 

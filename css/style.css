@@ -25,6 +25,14 @@ body {
 
 }
 
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 25px;
+}
+
 .section-title {
     color: #333B46;
     font-family: 'Roboto', sans-serif;
@@ -32,7 +40,16 @@ body {
     text-transform: uppercase;
 }
 
-.line-left:after {
+.section-item-title {
+    font-family: 'Roboto', sans-serif;
+    color: #898989;
+    font-size: 1.14rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    transition: 0.4s linear;    
+}
+
+.section-title-line:after {
     content: ' ';
     display: block;
     width: 46px;
@@ -41,8 +58,22 @@ body {
     margin-top: 24px;
 }
 
-.line-center:after {
-    margin: 0 auto;
+.section-title-line-center:after {
+    margin: 24px auto;
+}
+
+.item-title-line:after {
+    content: ' ';
+    display: block;
+    width: 31px;
+    height: 2px;
+    background: #81868E;
+    margin-top: 24px;
+    transition: 0.4s linear;
+}
+
+.item-title-line-center:after {
+    margin: 24px auto;
 }
 
 .text-dark {
@@ -50,7 +81,7 @@ body {
 }
 
 .text-danger {
-    color: #E84C3D important;
+    color: #E84C3D !important;
 }
 
 .bg-danger {
@@ -124,9 +155,6 @@ body {
     font-size: 16px;
 }
 
-.about .about-content .about-item-description {
-    line-height: 25px;
-}
 
 .about a {
     font-size: 16px;
@@ -135,4 +163,45 @@ body {
 .btn-danger:hover {
     color: #E84C3D !important;
     background: #fff !important;
+}
+
+.features .features-item {
+    border: 3px solid #EBEBEB;
+    box-shadow: 0 0 3px #898989;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    background: transparent;
+    color: inherit;
+    transition: 0.4s linear;
+}
+
+.features .features-item-icon .fa {
+    width: 108px;
+    height: 108px;
+    line-height: 108px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 45px;
+    background: #E84C3D;
+    transition: 0.4s linear;
+}
+
+.features .features-item:hover {
+    background: #E84C3D;
+    color: #fff;
+    border-color: #E84C3D
+}
+
+.features .features-item:hover .features-item-icon .fa {
+    background: #fff;
+    color: #E84C3D;
+}
+
+.features .features-item:hover .section-item-title.item-title-line:after {
+    background: #fff;
+}
+
+.features .features-item:hover .section-item-title {
+    color: #fff;
 }
