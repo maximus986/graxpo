@@ -46,6 +46,7 @@ p {
     font-size: 1.14rem;
     text-transform: uppercase;
     margin-bottom: 30px;
+    -webkit-transition: 0.4s linear;
     transition: 0.4s linear;    
 }
 
@@ -69,6 +70,7 @@ p {
     height: 2px;
     background: #81868E;
     margin-top: 24px;
+    -webkit-transition: 0.4s linear;
     transition: 0.4s linear;
 }
 
@@ -121,6 +123,7 @@ p {
 
 .navbar-light .navbar-nav .nav-item {
     border-bottom: 1px solid #E84C3D;
+    -webkit-transition: 0.5s linear;
     transition: 0.5s linear;
 }
 
@@ -167,12 +170,14 @@ p {
 
 .features .features-item {
     border: 3px solid #EBEBEB;
-    box-shadow: 0 0 3px #898989;
+    -webkit-box-shadow: 0 0 3px #898989;
+            box-shadow: 0 0 3px #898989;
     border-radius: 10px;
     max-width: 500px;
     margin: 0 auto;
     background: transparent;
     color: inherit;
+    -webkit-transition: 0.4s linear;
     transition: 0.4s linear;
 }
 
@@ -184,6 +189,7 @@ p {
     color: #fff;
     font-size: 45px;
     background: #E84C3D;
+    -webkit-transition: 0.4s linear;
     transition: 0.4s linear;
 }
 
