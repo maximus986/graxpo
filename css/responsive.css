@@ -1,6 +1,8 @@
 
 @media(min-width:576px){
-
+    .portfolio .item-title-line-margin-fluid:after {
+        margin: 24px 0 0;
+    }
 
 
 
@@ -47,6 +49,8 @@
     .features .features-item-icon {
         text-align: center;
     }
+
+
 
 
 

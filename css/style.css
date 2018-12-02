@@ -188,7 +188,7 @@ p {
     border-radius: 50%;
     color: #fff;
     font-size: 45px;
-    background: #E84C3D;
+    background: #e84c3d;
     -webkit-transition: 0.4s linear;
     transition: 0.4s linear;
 }
@@ -210,4 +210,33 @@ p {
 
 .features .features-item:hover .section-item-title {
     color: #fff;
+}
+
+.portfolio {
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio .portfolio-item .portfolio-item-counter-icon {
+    font-size: 40px;
+    margin-right: 26px;
+}
+
+.portfolio .portfolio-item .portfolio-item-counter-number {
+    font-size: 30px;
+    margin: 0;
+    line-height: 1;
+}
+
+.portfolio .section-item-title {
+    color: #fff;
+    margin: 0;
+}
+
+.portfolio .item-title-line:after {
+    background: #fff;
+}
+
+.portfolio .item-title-line-margin-fluid:after {
+    margin: 24px auto 0;
 }
