@@ -40,7 +40,7 @@
         text-align: left;
     }
     
-    .features .features-item-content .section-item-title.item-title-line-center:after {
+    .features .features-item-content .section-item-title.item-title-line-margin-fluid:after {
         margin: 24px 0;
     }
     
